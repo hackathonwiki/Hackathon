@@ -1,0 +1,19 @@
+A snapshot of version edf2150 of the erudite skin for MediaWiki REL1_32 has been created. Your download should start automatically in 5 seconds.
+
+The URL for this snapshot is:
+
+    https://extdist.wmflabs.org/dist/skins/erudite-REL1_32-edf2150.tar.gz
+
+You can use this link to download the skin on any computer, but please do not bookmark it, since its contents will not be updated, and it may be deleted at a later date.
+
+You should extract the tar archive's contents into the skins directory of your MediaWiki installation. For example, on a Unix-like OS:
+
+tar -xzf erudite-REL1_32-edf2150.tar.gz -C /var/www/mediawiki/skins
+
+On Windows, you can use 7-zip to extract the files.
+
+If your wiki is on a remote server, extract the files to a temporary directory on your local computer, and then upload all of the extracted files to the skins directory on the server.
+
+After you have extracted the files, you will need to register the skin in LocalSettings.php. The skin documentation should have instructions on how to do this.
+
+If you have any questions about this skin distribution system, please go to Extension talk:ExtensionDistributor. 
